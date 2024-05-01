@@ -12,10 +12,10 @@ The aim of this project is to create a Python script that connects to and extrac
 
 ## Info
 
-+ The SQLite database file (`Data Engineer_ETL Assignment.db`) as well as the `main_sql.py` and `main_pandas.py` scripts can be found.
-+ Two .csv files will be the result after the analysis `marketing_pandas.csv` (using Pandas) and `marketing_sql.csv` (using SQL).
+1. The SQLite database file (`Data Engineer_ETL Assignment.db`) as well as the `main_sql.py` and `main_pandas.py` scripts can be found.
+2. Two .csv files will be the result after the analysis `marketing_pandas.csv` (using Pandas) and `marketing_sql.csv` (using SQL).
 
 ### How to Run
 
-+ Run the command: `python main_sql.py` and `python main_pandas.py` in the terminal with pwd where the files are located.
-+ `marketing_pandas.csv` and `marketing_sql.csv` will be generated.
+1. Run the command: `python main_sql.py` and `python main_pandas.py` in the terminal with pwd where the files are located.
+2. `marketing_pandas.csv` and `marketing_sql.csv` will be generated.
