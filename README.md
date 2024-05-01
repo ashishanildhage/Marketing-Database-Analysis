@@ -2,7 +2,7 @@
 
 ## Aim
 
-To create a Python script to connect and extract data from an SQLite3 database based on specified criteria, and store the results in two CSV file using Pandas and pure SQL.
+The aim of this project is to create a Python script that connects to and extracts data from an SQLite3 database based on specified criteria. The extracted data is then stored in two CSV files using both Pandas and pure SQL methods.
 
 ## Dependencies
 
@@ -12,12 +12,10 @@ To create a Python script to connect and extract data from an SQLite3 database b
 
 ## Info
 
-1. The SQLite database file (`Data Engineer_ETL Assignment.db`) and `marketing.py` script can be found in the directory - zoblik_assignment\Scripts\assignment_files.
-3. Two .csv files will be generated - `marketing_pandas.csv` (using Pandas) and `marketing_sql.csv` (using SQL).
+1. The SQLite database file (`Data Engineer_ETL Assignment.db`) as well as the `main_sql.py` and `main_pandas.py` scripts can be found.
+2. Two .csv files will be the result after the analysis `marketing_pandas.csv` (using Pandas) and `marketing_sql.csv` (using SQL).
 
 ### How to Run
 
-1. Run 'venv_activate.bat' file to enter the Virtual Environment in cmd, so that Version Depenedency and Integrity acorss platforms for packages is maintained.
-2. Run the command in the auto opened command prompt: ```python marketing.py``` 
-3. `marketing_pandas.csv` and `marketing_sql.csv` will be generated.
-
+1. Run the command: `python main_sql.py` and `python main_pandas.py` in the terminal with pwd where the files are located.
+2. `marketing_pandas.csv` and `marketing_sql.csv` will be generated.
